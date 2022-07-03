@@ -147,7 +147,49 @@ blockquote {
     text-align: end;
 }
 
+/* action section */ 
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
 
+.action-container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color:#e5e7eb;
+    gap: 120px;
+    padding: 35px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.action_button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    padding: 5px 20px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.action_button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+
+/*footer */ 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 25px 50px;
+}
 
 
 
